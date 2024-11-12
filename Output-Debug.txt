@@ -1,0 +1,15 @@
+﻿'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Users\yanie\source\repos\PASSWORD ANALYSIST\x64\Debug\PASSWORD ANALYSIST.exe'. Symbols loaded.
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+The thread 47436 has exited with code 0 (0x0).
+The thread 22220 has exited with code 0 (0x0).
+The thread 20780 has exited with code 0 (0x0).
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'PASSWORD ANALYSIST.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+The thread 12640 has exited with code 0 (0x0).
+The program '[37380] PASSWORD ANALYSIST.exe' has exited with code 0 (0x0).
