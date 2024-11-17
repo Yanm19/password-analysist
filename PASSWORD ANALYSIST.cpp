@@ -2,7 +2,7 @@
 Yaniel Molina
 George Melendez
 11/ 18 / 2024
-Password analysist
+Password analyst
 *******************************************************************************/
 /*Yaniel*/
 //George//
@@ -13,8 +13,8 @@ Password analysist
 #include <algorithm>
 using namespace std;
 
-/*esta porcion fue echa por Yaniel y George, de un tamplate de:*/
-/*sitema de recomendacion con patrones random las asigancion de valores abajo*/
+/*esta porcion fue echa por Yaniel y George, de un template de:*/
+/*sistema de recomendacion con patrones random las asigancion de valores abajo*/
 string passRecomende(int largo) {
     string lttmayor = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     string lttmenor = "abcdefghijklmnopqrstuvwxyz";
@@ -39,7 +39,7 @@ string passRecomende(int largo) {
     for (int i = 4; i < largo; ++i) {
         pasword += alltogheter[distallt(pas)];
     }
-    /* usamos una funcion de algorithim llamda para hacer un shuffle en los valores*/
+    /* usamos una funcion de algorithim llamada para hacer un shuffle en los valores*/
     shuffle(pasword.begin(), pasword.end(), pas);
     return pasword;
 
@@ -49,7 +49,7 @@ int main()
 {
     string password;
     int fuerza = 0;
-    /*Interfase que vera el ususario con los requisistos para el password*/
+    /*Interfase que vera el usuario con los requisistos para el password*/
     cout << "Los parametros para cumplir son:\n";
     cout << "Su Password debe tener minimo 12 caracteres.\n";
     cout << "Letra mayuscula y minuscula.\n";
@@ -87,7 +87,7 @@ int main()
     cout << "Luego de analizar su password, determinamos que es: \n";
 
 
-    /*Estos son los niveles de fuerza que le saldra al ususario*/
+    /*Estos son los niveles de fuerza que le saldra al usuario*/
      //si no cumple con los requisitos
     if (fuerza == 5) {
         cout << "muy seguro.";
@@ -105,7 +105,7 @@ int main()
         cout << "completamente inestable.\n";
     }
     /*Aqui en caso que no cumpla con un 4/5 como minimo le dara este menu */
-   //En  se le dara un segundo intento al menos que la perdona escoja el recomendado//
+   // se le dara un segundo intento al menos que la persona escoja el recomendado//
     if (fuerza <= 3) {
         int opt;
         cout << "Desea Intentar otro password o uno recomendado:para intentar 1, para recomendado 2.\n";
